@@ -1,17 +1,19 @@
 .sidebar{
-   background-color: greenyellow;
-   color: brown;
-   width:300px;
+   background-color: black;
+   color:white;
+   width:200px;
    height:100%;
    position: fixed;
-   top :padding 20pe;
+   padding: 40px; 
    top: 0;
    left: 0;
+   bottom: 0;
 }
 ul{
    list-style:none;
    margin: 10px;
    padding:30px;
+
    
 }
 li{
@@ -19,9 +21,9 @@ li{
     font-size: 20px;
     padding: 15px 20px;
 }
-a{
+.sidebar a {
     text-decoration: none;
-    color: brown;
+    color: white;
 }
 a:hover{
     background-color:salmon;
@@ -32,4 +34,41 @@ a:hover{
     height: 200px;
     border-radius: 70%;
     overflow-y: none;
+}
+.my name{
+    font-size: 40px;
+}
+.introduction{
+    margin-left: 400px;
+}
+.introduction-text{
+    font-size: 20px;
+}
+.contact-me{
+    border:darkblue ;
+    text-align: center;
+    font-size: 20px;
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.contact-me :hover{
+    background-color: turquoise;
+    color: blueviolet;
+}
+.read-more{
+    padding: 10px;
+    border: 1px solid black;
+}
+.read-more a{
+    color: white;
+    background-color:black;
+    font-weight:bold ;
+    padding: 8px;
+}
+.read-more a :hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
 }
