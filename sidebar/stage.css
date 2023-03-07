@@ -1,6 +1,6 @@
 .sidebar{
-   background-color: black;
-   color:white;
+   background-color: greenyellow;
+   color:darkred;
    width:200px;
    height:100%;
    position: fixed;
@@ -35,14 +35,14 @@ a:hover{
     border-radius: 70%;
     overflow-y: none;
 }
-.my name{
+.my-name{
     font-size: 40px;
 }
 .introduction{
-    margin-left: 400px;
+    margin-left: 300px;
 }
 .introduction-text{
-    font-size: 20px;
+    font-size: 40px;
 }
 .contact-me{
     border:darkblue ;
@@ -53,7 +53,7 @@ a:hover{
     border: 1px solid black;
     border-radius: 60px;
 }
-.contact-me :hover{
+.contact-me a:hover{
     background-color: turquoise;
     color: blueviolet;
 }
@@ -61,7 +61,7 @@ a:hover{
     padding: 10px;
     border: 1px solid black;
 }
-.read-more a{
+.read-morea{
     color: white;
     background-color:black;
     font-weight:bold ;
