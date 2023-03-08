@@ -1,5 +1,8 @@
+body{
+    background-color: aqua;
+}
 .sidebar{
-   background-color: greenyellow;
+   background-color: royalblue;
    color:darkred;
    width:200px;
    height:100%;
@@ -8,6 +11,7 @@
    top: 0;
    left: 0;
    bottom: 0;
+   font-size: 40px;
 }
 ul{
    list-style:none;
@@ -36,7 +40,7 @@ a:hover{
     overflow-y: none;
 }
 .my-name{
-    font-size: 40px;
+    font-size: 100px;
 }
 .introduction{
     margin-left: 300px;
@@ -71,4 +75,7 @@ a:hover{
     background-color: white;
     color: black;
     transition: 200ms ease-in-out;
+}
+.more-information{
+    margin-left: 300px;
 }
