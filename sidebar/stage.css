@@ -1,8 +1,12 @@
 body{
-    background-color: aqua;
+    background-image:url(andre-benz-JnB8Gio4GZo-unsplash.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 .sidebar{
-   background-color: royalblue;
+   background-image:url(smoke-376543__480.jpg);
    color:darkred;
    width:200px;
    height:100%;
@@ -27,7 +31,7 @@ li{
 }
 .sidebar a {
     text-decoration: none;
-    color: white;
+    color: aqua;
 }
 a:hover{
     background-color:salmon;
@@ -54,7 +58,7 @@ a:hover{
     font-size: 20px;
 }
 .contact-me a{
-    border: 1px solid black;
+    border: 1px solid maroon;
     border-radius: 60px;
 }
 .contact-me a:hover{
@@ -63,11 +67,11 @@ a:hover{
 }
 .read-more{
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid maroon;
 }
 .read-morea{
     color: white;
-    background-color:black;
+    background-color:maroon;
     font-weight:bold ;
     padding: 8px;
 }
